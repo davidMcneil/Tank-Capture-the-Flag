@@ -306,13 +306,13 @@ class game():
       for row in level:
 	for col in row:
 	  if col == "1":
-	    self.f_1 = figure(x, y, 'B_u.jpg', 'B_d.jpg', 'B_l.jpg', 'B_r.jpg')
+	    self.f_1 = figure(x, y, '/home/david/Programming/Python/tank_game/B_u.jpg', '/home/david/Programming/Python/tank_game/B_d.jpg', '/home/david/Programming/Python/tank_game/B_l.jpg', '/home/david/Programming/Python/tank_game/B_r.jpg')
 	  if col == "2":
-	    self.f_2 = figure(x, y, 'B_u.jpg', 'B_d.jpg', 'B_l.jpg', 'B_r.jpg')
+	    self.f_2 = figure(x, y, '/home/david/Programming/Python/tank_game/B_u.jpg', '/home/david/Programming/Python/tank_game/B_d.jpg', '/home/david/Programming/Python/tank_game/B_l.jpg', '/home/david/Programming/Python/tank_game/B_r.jpg')
 	  if col == "3":
-	    self.f_3 = figure(x, y, 'G_u.jpg', 'G_d.jpg', 'G_l.jpg', 'G_r.jpg')
+	    self.f_3 = figure(x, y, '/home/david/Programming/Python/tank_game/G_u.jpg', '/home/david/Programming/Python/tank_game/G_d.jpg', '/home/david/Programming/Python/tank_game/G_l.jpg', '/home/david/Programming/Python/tank_game/G_r.jpg')
 	  if col == "4":
-	    self.f_4 = figure(x, y, 'G_u.jpg', 'G_d.jpg', 'G_l.jpg', 'G_r.jpg')
+	    self.f_4 = figure(x, y, '/home/david/Programming/Python/tank_game/G_u.jpg', '/home/david/Programming/Python/tank_game/G_d.jpg', '/home/david/Programming/Python/tank_game/G_l.jpg', '/home/david/Programming/Python/tank_game/G_r.jpg')
 	  if col == "W":
 	    wall(x,y)
 	  if col == "R":
@@ -320,9 +320,9 @@ class game():
 	    if r == 'W':
 	      wall(x,y)
 	  if col == "f":
-	    self.flag1 = flag(x, y, 'B_f.jpg')
+	    self.flag1 = flag(x, y, '/home/david/Programming/Python/tank_game/B_f.jpg')
 	  if col == "F":
-	    self.flag2 = flag(x, y, 'G_f.jpg')
+	    self.flag2 = flag(x, y, '/home/david/Programming/Python/tank_game/G_f.jpg')
 	  if col == "s":
 	    self.start1 = start_point(x, y)
 	  if col == "S":
