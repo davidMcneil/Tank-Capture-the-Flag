@@ -1,4 +1,4 @@
-![Alt text](Tank-Capture-the-Flag/blob/master/screenshot.jpg)
+![Alt text](Tank-Capture-the-Flag/raw/master/screenshot.jpg)
 
 # Setup
 - unzip folder into desired location, this path will hence be called directory
@@ -26,8 +26,8 @@
   - 'o,k,l,;'
   - 'y,g,h,j'
 - Up moves forward
-- Left and rigt rotates tank
+- Left and right rotates tank
 - Down Shoots		
 	 
-Objective bring opponents flag to your own
+Objective is to bring opponents flag to your own
 
