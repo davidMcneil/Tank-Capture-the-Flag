@@ -1,4 +1,4 @@
-![Alt text](Tank-Capture-the-Flag/raw/master/screenshot.jpg)
+![Alt text](screenshot.jpg)
 
 # Setup
 - unzip folder into desired location, this path will hence be called directory
